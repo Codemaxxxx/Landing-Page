@@ -259,7 +259,7 @@ header { grid-area: hd; }
 
 /* xxs */
 
-@media (min-width: 414px) {
+@media (max-width: 414px) {
     .container {
         display: grid;
         grid-template-columns: 414px;
